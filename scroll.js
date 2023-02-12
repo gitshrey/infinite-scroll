@@ -1,5 +1,5 @@
 const imageContainer=document.querySelector('#image-container');
-const loader=document.querySelector('#loader');
+const loader=document.querySelector('.loader');
 
 let ready=false;
 let imagesLoaded=0;
@@ -54,7 +54,7 @@ const count=30;
 const apiKey='zpG1R4M3-Mr27Kph1gJtLDbzYB_7WArZRVfb56B1nvc';
 const apiUrl=`https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
-//get photos from api
+
 
 async function getPhotos(){
     try {
