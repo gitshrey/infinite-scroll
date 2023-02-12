@@ -50,7 +50,7 @@ function displayPhotos(){
 
 
 // unsplash api
-const count=5;
+const count=30;
 const apiKey='zpG1R4M3-Mr27Kph1gJtLDbzYB_7WArZRVfb56B1nvc';
 const apiUrl=`https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
